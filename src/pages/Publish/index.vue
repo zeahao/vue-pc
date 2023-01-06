@@ -39,7 +39,7 @@
 </template>
 
 <script setup>
-import {computed, onMounted, reactive, ref} from "vue";
+import {computed, onMounted, reactive, ref, watch} from "vue";
 import {useRoute, useRouter} from "vue-router";
 import Bread from "@/components/Bread"
 import {useStore} from "vuex";
